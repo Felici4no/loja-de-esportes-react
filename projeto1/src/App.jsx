@@ -1,11 +1,19 @@
 // src/App.jsx
 import React from 'react';
-import './App.css';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Produtos from './pages/Produtos';
+import Contato from './pages/Contato';
+import Sobre from './pages/Sobre';
+import Error from './pages/Error';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello, World!</h1>
+      <Nav />
+      <Home />
+      <Footer />
     </div>
   );
 }
